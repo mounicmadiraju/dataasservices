@@ -28,7 +28,7 @@ class extract_from_exel(object):
                 self.error.append((e,i[0],tex))
             
 class scrape(object):
-    def __init__(self,user='robotmail000@gmail.com',passw='sanjay0718'):
+    def __init__(self,user='XXXX',passw='XXXX'):
         self.email=user
         self.passw=passw
         self.main_url='http://www.linkedin.com/'
