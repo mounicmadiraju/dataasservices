@@ -1,0 +1,44 @@
+{
+  "name": "AI Twitter integration",
+  "description": "ai Twitter integration allows you to create Twitter bots with natural language understanding based on Api-Ai technology.",
+  "repository": "https://github.com/mounicmadiraju/dataasservices",
+  "keywords": [
+    "api.ai",
+    "twitter",
+    "natural language"
+  ],
+  "env": {
+    "APIAI_ACCESS_TOKEN": {
+      "description": "Client access token for AI",
+      "value": ""
+    },
+    "APIAI_LANG": {
+      "description": "Agent language",
+      "value": "en",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Username of your Twitter account",
+      "value": ""
+    },
+    "CONSUMER_KEY": {
+      "description": "Consumer Key (API Key) from Application Settings",
+      "value": ""
+    },
+    "CONSUMER_SECRET": {
+      "description": "Consumer Secret (API Secret) from Application Settings",
+      "value": ""
+    },
+    "ACCESS_TOKEN": {
+      "description": "Access Token",
+      "value": ""
+    },
+    "ACCESS_TOKEN_SECRET": {
+      "description": "Access Token Secret",
+      "value": ""
+    }
+  },
+  "engines": {
+    "node": "5.10.1"
+  }
+}
