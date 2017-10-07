@@ -35,3 +35,10 @@ https://developers.facebook.com/docs/graph-api/overview
 <b>Usage</b>
 ```bash
 $ python facebook-sentiment-analysis.py --access_token YOUR_ACCESS_TOKEN --profile=profilename
+
+Tests for ChatterBot examples
+=============================
+
+This directory contains tests for the ChatterBot example programs
+to make sure that things don't break and continue to work as
+expected as changes are made to the chatterbot package.
