@@ -35,6 +35,7 @@ https://developers.facebook.com/docs/graph-api/overview
 <b>Usage</b>
 ```bash
 $ python facebook-sentiment-analysis.py --access_token YOUR_ACCESS_TOKEN --profile=profilename
+```
 
 Tests for ChatterBot examples
 =============================
