@@ -37,12 +37,3 @@ https://developers.facebook.com/docs/graph-api/overview
 <b>Usage</b>
 ```bash
 $ python facebook-sentiment-analysis.py --access_token YOUR_ACCESS_TOKEN --profile=profilename
-
-||||||| .r6
-dataasservices
-=======
-We're team of technical geeks with passion in building apps, data and web services on all platforms and we do Analytics using Data Science. We are mastered in Artificial Intelligence(AI), Machine Learning(ML), Deep Learning
-
- To know more about services, visit our website  http://www.dataasservices.com/
->>>>>>> .r38
-
