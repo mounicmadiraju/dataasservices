@@ -1,0 +1,22 @@
+pkgname=agentx
+pkgver=1.5.1
+pkgrel=1
+pkgdesc="Agentx is a factory complex calculator for the games X³: Terran Conflict and X³: Albion Prelude. With this tool you can plan your factory complexes before you build them in-game."
+arch=('i686' 'x86_64')
+license=('GPL')
+depends=('java-runtime')
+provides=(agentx)
+source=(http://nexus.ailis.de/content/repositories/releases/de/ailis/$pkgname/$pkgname//$pkgver/$pkgname-$pkgver-unix.tar.bz2)
+md5sums=('6885ca2822f51ca3af133d79798a69a8')
+
+package() {
+  cd "$srcdir/$pkgname-$pkgver"
+  mkdir -p "$pkgdir/usr/share/java/agentx"
+  cp lib/*.jar "$pkgdir/usr/share/java/agentx"
+  mkdir -p "$pkgdir/usr/bin/"
+  cat > "$pkgdir/usr/bin/agentx" <<EOF
+#!/bin/sh
+exec java -jar "/usr/share/java/agentx/agentx.jar" "\$@"
+EOF
+  chmod +x "$pkgdir/usr/bin/agentx"
+}
