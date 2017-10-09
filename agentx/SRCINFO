@@ -1,0 +1,14 @@
+pkgbase = agentx
+	pkgdesc = agentx is a factory complex calculator for the games X³: Terran Conflict and X³: Albion Prelude. With this tool you can plan your factory complexes before you build them in-game.
+	pkgver = 1.5.1
+	pkgrel = 1
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = java-runtime
+	provides = agentx
+	source = http://nexus.ailis.de/content/repositories/releases/de/ailis/agentx/agentx//1.5.1/agentx-1.5.1-unix.tar.bz2
+	md5sums = 6885ca2822f51ca3af133d79798a69a8
+
+pkgname = agentx
+
