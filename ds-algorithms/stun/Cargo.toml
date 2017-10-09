@@ -1,0 +1,7 @@
+[package]
+name = "stun"
+version = "0.1.0"
+[dependencies]
+num = "0.1.32"
+byteorder = "0.5"
+tlv = "0.2.0"
