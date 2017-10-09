@@ -1,0 +1,9 @@
+[package]
+name = "type-length-value"
+version = "0.2.0"
+authors = ["Mounic Madiraju <mounicraju@gmail.com>"]
+description = "Rust library for encoding type, value, length - a common networking encoding"
+license = "BSD-3-Clause"
+
+[dependencies]
+byteorder = "0.5"
