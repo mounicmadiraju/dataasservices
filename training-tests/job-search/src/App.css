@@ -1,0 +1,48 @@
+#root .App {
+  text-align: center;
+}
+
+#root .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+#root .App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+#root .App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.search-wrap{
+  min-height:400px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.search-wrap form{
+  background: rgba(255,255,255,0.5);
+  padding:20px;
+  border-radius:5px;
+}
+.home{
+  background:green;
+  display: flex;
+  flex-direction: column;
+}
+
+.home img{
+  max-width: 200px;
+  margin:0 auto;
+}
