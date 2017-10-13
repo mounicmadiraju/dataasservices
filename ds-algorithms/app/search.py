@@ -4,7 +4,7 @@ def unsorted_sequential_search(haystack, needle):
     found = False
 
     while counter < endpoint and not found:
-        if haystack[counter] == needle:
+        if haystack[counter] == needle:  #defined haystack counter
             found = True
         else:
             counter += 1
@@ -12,7 +12,7 @@ def unsorted_sequential_search(haystack, needle):
     return found
 
 def sorted_sequential_search(haystack, needle):
-    endpoint = len(haystack)
+    endpoint = len(haystack)     #defining endpoint
     counter = 0
     found = stop = False
 
